@@ -1,5 +1,6 @@
 [mysqld]
 ;key_buffer_size=16M
+default-time-zone='Europe/Amsterdam'
 
 [mysqldump]
 ;quick

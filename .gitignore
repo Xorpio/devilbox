@@ -205,3 +205,5 @@ $RECYCLE.BIN/
 *.bbprojectd
 *.bbproject
 
+#npm
+node_modules
