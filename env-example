@@ -136,7 +136,7 @@ NEW_GID=1000
 ###
 ### Timezone for PHP Docker container (system and php.ini)
 ###
-TIMEZONE=UTC
+TIMEZONE=Europe/Amsterdam
 
 
 
@@ -415,7 +415,7 @@ MOUNT_OPTIONS=
 ###
 ### $ docker-compose rm -f
 ###
-HOST_PATH_HTTPD_DATADIR=./data/www
+HOST_PATH_HTTPD_DATADIR=C:\Users\NGooijer\Projects\www
 
 
 
@@ -463,7 +463,7 @@ PHP_MODULES_DISABLE=oci8,PDO_OCI,pdo_sqlsrv,sqlsrv,rdkafka,swoole
 ###
 ### Expose HTTPD Port to Host
 ###
-HOST_PORT_HTTPD=80
+HOST_PORT_HTTPD=8001
 HOST_PORT_HTTPD_SSL=443
 
 
@@ -475,7 +475,7 @@ HOST_PORT_HTTPD_SSL=443
 ###
 ### When changing this value, restart the devilbox.
 ###
-HTTPD_DOCROOT_DIR=htdocs
+HTTPD_DOCROOT_DIR=src
 
 
 ###
